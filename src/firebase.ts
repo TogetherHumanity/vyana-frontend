@@ -4,12 +4,13 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "YOUR_FIREBASE_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyBNe12p5GQhX3dx_Wo1P1QuuPyxE04T7Q4",
+  authDomain: "vyana-73290.firebaseapp.com",
+  projectId: "vyana-73290",
+  storageBucket: "vyana-73290.firebasestorage.app",
+  messagingSenderId: "797984085681",
+  appId: "1:797984085681:web:552ff10364c7732add7490",
+  measurementId: "G-B8S2GSXRNF"
 };
 
 const app = initializeApp(firebaseConfig);
