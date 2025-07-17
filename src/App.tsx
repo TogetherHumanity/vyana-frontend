@@ -1,13 +1,15 @@
-import Chat from './components/Chat'
-import Sidebar from './components/Sidebar'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from "./pages/Login";
 
 function App() {
   return (
-    <div className="flex h-screen">
-      <Sidebar />
-      <Chat />
-    </div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/login" element={<Login />} />
+        {/* More routes go here */}
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
